@@ -1,0 +1,41 @@
+Name: Model
+Type: FolderType
+Children:
+- Name: JobRecipe
+  Id: g=57835450debb3bc9645a23c0a1a2bab0
+  Type: BaseObjectType
+  Children:
+  - Name: JobId
+    Id: g=982c930f7c033428ff2e1fc83aec6d62
+    Type: BaseDataVariableType
+    DataType: String
+    Value: ""
+  - Name: Product
+    Id: g=c4763485a03c623fb0d445055e0b2c49
+    Type: BaseDataVariableType
+    DataType: String
+    Value: ""
+  - Name: Client
+    Id: g=7cdd421efadf37257a502c07546be8ac
+    Type: BaseDataVariableType
+    DataType: String
+    Value: ""
+  - Name: PackagingConfig
+    Id: g=7d637acd6c7acb19e7e1e5e00f2904fd
+    Type: BaseDataVariableType
+    DataType: String
+    Value: ""
+- Name: PackagingRecipe
+  Id: g=9ea976242cedb185c7fb0183c0edf6fa
+  Type: BaseObjectType
+  Children:
+  - Name: MaterialId
+    Id: g=009fdc769c0468b1c4377da9e3914d39
+    Type: BaseDataVariableType
+    DataType: String
+    Value: ""
+  - Name: PackagingConfiguration
+    Id: g=4fd9bb0d5926a5cba092feec95c52509
+    Type: BaseDataVariableType
+    DataType: ResourceUri
+    Value: ""

@@ -1,0 +1,181 @@
+Name: Recipes
+Type: FolderType
+Children:
+- Name: JobRecipeSchema
+  Id: g=bc3a5d721358091e9bc65b20ab600702
+  Type: RecipeSchema
+  Children:
+  - Name: Root
+    Type: BaseObjectType
+    Children:
+    - Name: JobId
+      Type: BaseDataVariableType
+      DataType: String
+      Value: ""
+    - Name: Product
+      Type: BaseDataVariableType
+      DataType: String
+      Value: ""
+    - Name: Client
+      Type: BaseDataVariableType
+      DataType: String
+      Value: ""
+    - Name: PackagingConfig
+      Type: BaseDataVariableType
+      DataType: String
+      Value: ""
+  - Class: Reference
+    Target: ns=8;i=27
+    Direction: Forward
+  - Class: Reference
+    Target: ns=8;i=33
+    Direction: Forward
+  - Class: Reference
+    Target: ns=8;i=31
+    Direction: Forward
+  - Class: Reference
+    Target: ns=8;i=44
+    Direction: Forward
+  - Class: Reference
+    Target: ns=8;i=35
+    Direction: Forward
+  - Class: Reference
+    Target: ns=8;i=37
+    Direction: Forward
+  - Class: Reference
+    Target: ns=8;i=76
+    Direction: Forward
+  - Class: Reference
+    Target: ns=8;i=53
+    Direction: Forward
+  - Class: Reference
+    Target: ns=8;i=62
+    Direction: Forward
+  - Class: Reference
+    Target: ns=8;i=55
+    Direction: Forward
+  - Class: Reference
+    Target: ns=8;i=58
+    Direction: Forward
+  - Class: Reference
+    Target: ns=8;i=60
+    Direction: Forward
+  - Name: Store
+    Type: NodePointer
+    DataType: NodeId
+    Value: {"IdType":2,"Id":"de8ed26ccc9700cfd7bb1469b4ea2d21","Namespace":7}
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: {"Id":1,"Namespace":9}
+  - Name: TargetNode
+    Type: NodePointer
+    DataType: NodeId
+    Value: {"IdType":2,"Id":"57835450debb3bc9645a23c0a1a2bab0","Namespace":7}
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: {"IdType":0,"Id":0,"Namespace":-1}
+  - Name: EditModel
+    Id: g=59ebab5ef68db59b59cbe1979f785395
+    Type: BaseObjectType
+    Children:
+    - Name: JobId
+      Type: BaseDataVariableType
+      DataType: String
+      Value: ""
+    - Name: Product
+      Type: BaseDataVariableType
+      DataType: String
+      Value: ""
+    - Name: Client
+      Type: BaseDataVariableType
+      DataType: String
+      Value: ""
+    - Name: PackagingConfig
+      Type: BaseDataVariableType
+      DataType: String
+      Value: ""
+- Name: PackagingRecipeSchema
+  Id: g=2abf1cb0c2af4749ad880d3081ad8014
+  Type: RecipeSchema
+  Children:
+  - Name: Root
+    Type: BaseObjectType
+    Children:
+    - Name: MaterialId
+      Type: BaseDataVariableType
+      DataType: String
+      Value: ""
+    - Name: PackagingConfiguration
+      Type: BaseDataVariableType
+      DataType: ResourceUri
+      Value: ""
+  - Class: Reference
+    Target: ns=8;i=27
+    Direction: Forward
+  - Class: Reference
+    Target: ns=8;i=33
+    Direction: Forward
+  - Class: Reference
+    Target: ns=8;i=31
+    Direction: Forward
+  - Class: Reference
+    Target: ns=8;i=44
+    Direction: Forward
+  - Class: Reference
+    Target: ns=8;i=35
+    Direction: Forward
+  - Class: Reference
+    Target: ns=8;i=37
+    Direction: Forward
+  - Class: Reference
+    Target: ns=8;i=76
+    Direction: Forward
+  - Class: Reference
+    Target: ns=8;i=53
+    Direction: Forward
+  - Class: Reference
+    Target: ns=8;i=62
+    Direction: Forward
+  - Class: Reference
+    Target: ns=8;i=55
+    Direction: Forward
+  - Class: Reference
+    Target: ns=8;i=58
+    Direction: Forward
+  - Class: Reference
+    Target: ns=8;i=60
+    Direction: Forward
+  - Name: Store
+    Type: NodePointer
+    DataType: NodeId
+    Value: {"IdType":2,"Id":"de8ed26ccc9700cfd7bb1469b4ea2d21","Namespace":7}
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: {"Id":1,"Namespace":9}
+  - Name: TargetNode
+    Type: NodePointer
+    DataType: NodeId
+    Value: {"IdType":2,"Id":"9ea976242cedb185c7fb0183c0edf6fa","Namespace":7}
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: {"IdType":0,"Id":0,"Namespace":-1}
+  - Name: EditModel
+    Id: g=ef907f6e6029b14eb95a6cc8d539b94c
+    Type: BaseObjectType
+    Children:
+    - Name: MaterialId
+      Type: BaseDataVariableType
+      DataType: String
+      Value: ""
+    - Name: PackagingConfiguration
+      Type: BaseDataVariableType
+      DataType: ResourceUri
+      Value: ""
